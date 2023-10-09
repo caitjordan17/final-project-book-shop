@@ -1,0 +1,89 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Only Story",
+        "author": "Julian Barnes",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/91Cjo6c+dYL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 2,
+        "title": "People We Meet On Vacation",
+        "author": "Emily Henry",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/813QkLg2LaL.jpg"
+      },
+      {
+        "id": 3,
+        "title": "My Sister the Serial Killer",
+        "author": "Oyinkan Braithwaite",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/91vWDBRqMqL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Money",
+        "author": "Jacob Goldstein",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/71e7ckg0vSL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/51dzuwLmm-L.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Vampires in the Lemon Grove",
+        "author": "Karen Russell",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/91EwT-DvmeL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Lessons in Chemistry",
+        "author": "Bonnie Garmus",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/71Kky9vSvFL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 8,
+        "title": "A Thousand Ships",
+        "author": "Natalie Haynes",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/91CiobZvhhL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 9,
+        "title": "The Third Hotel",
+        "author": "Laura van den Berg",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/81uIDAz3ckL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 10,
+        "title": "A Line to Kill",
+        "author": "Anthony Horowitz",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/41u9IMHFPwS.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Sharks in the Time of Saviors",
+        "author": "Kawai Strong Washburn",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/81coQKiSvFL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 12,
+        "title": "O Caledonia",
+        "author": "Elspeth Barker",
+        "likes": 0,
+        "image": "https://m.media-amazon.com/images/I/71o5KW44etL._AC_UF1000,1000_QL80_.jpg"
+      }
+    ]
+  }
+  
