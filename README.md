@@ -2,16 +2,10 @@
 
 Book Liker is a book app where you can add and like books in your own personal library!
 
-## Use Cases
+## Keep track!
 
-- Keeping track of books friends recommend:
-    - Add the book in the "New Book" tab
-    - Click the like button each time a friend recommends the book
-    - Keep track of the books with the most recommendations
+Keep track of which books you liked & how much you liked them by upping the likes under the book!
 
-- Book Club voting on a new book:
-    - Add the books your bookclub is considering in the "New Book" tab
-    - Share Book Liker with your book club
-    - Have members vote with the like button!
-    - Pick the highest rated book
+## How it works:
 
+- Add a new book 
