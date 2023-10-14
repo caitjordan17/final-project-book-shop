@@ -2,6 +2,10 @@
 
 BookLiker is a book app where you can add and like books in your own personal library!
 
+## Navigation
+
+BookLiker has a navigation bar at the top of the page that allows users to seamlessly navigate from their book list, to adding a new book, or to our info page.
+
 ## Keep track!
 
 Keep track of which books you liked & how much you liked them by upping the likes under the book!
@@ -9,7 +13,7 @@ Keep track of which books you liked & how much you liked them by upping the like
 ## How it works:
 
 - Add a new book with the "New Book" tab
-- When you read it, like the book
+- When you read it, like the book by clicking the heart icon below the book
 - Each time you think about the book, like the book
 - See which books you liked the most!
 
