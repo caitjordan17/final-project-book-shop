@@ -44,7 +44,7 @@ function BookForm({handleUpdate, books}) {
             <input type="text" name="title" placeholder="Book Title" onChange={(e) => handleChange(e)}/>
             <input type="text" name="author" placeholder="Author" onChange={(e) => handleChange(e)}/>
             <input type="text" name="image" placeholder="Book Cover URL" onChange={(e) => handleChange(e)}/>
-            <button type="submit">Add Book</button>
+            <button type="submit" id="book-btn">Add Book</button>
         </form>
         <img id="belle-gif" src="https://images.gr-assets.com/hostedimages/1381457293ra/4903435.gif" alt="belle library gif"/>
     </div>
