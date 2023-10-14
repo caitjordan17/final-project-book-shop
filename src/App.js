@@ -18,7 +18,7 @@ function App() {
 
   function handleUpdate(newData){
     setBooks([...books, newData])
-    console.log(books)
+    //console.log(books)
   }
 
   function handleLike(newData){
