@@ -116,10 +116,7 @@ nav a{
 }
 
 #new-book-h2{
-  margin-left: 2rem;
-}
-
-#book-form{
+  text-align: center;
   margin-top: 3rem;
 }
 
