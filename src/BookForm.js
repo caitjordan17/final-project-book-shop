@@ -37,8 +37,6 @@ function BookForm({handleUpdate, books}) {
         handleUpdate(formData);
     }
 
-    console.log("formdata", formData)
-
     return (
     <div className="book-form">
         <h2 id="new-book-h2">Let's Borrow a Book:</h2>
