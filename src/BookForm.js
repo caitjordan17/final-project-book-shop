@@ -41,7 +41,7 @@ function BookForm({handleUpdate, books}) {
 
     return (
     <div className="book-form">
-        <h2 id="new-book-h2">New Book</h2>
+        <h2 id="new-book-h2">Let's Add a Book</h2>
         <form onSubmit={handleSubmit}>
             <input type="text" name="title" placeholder="Book Title" onChange={(e) => handleChange(e)}/>
             <input type="text" name="author" placeholder="Author" onChange={(e) => handleChange(e)}/>
