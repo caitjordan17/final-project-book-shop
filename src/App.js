@@ -24,7 +24,7 @@ function App() {
       (book.id === newData.id ? newData : book)
     );
     setBooks(bookLiked)
-  };
+  }; 
 
   return (
     <div>
