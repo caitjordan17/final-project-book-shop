@@ -22,11 +22,11 @@ function App() {
   }
 
   function handleLike(newData){
-    console.log("newdata",newData)
+    //console.log("newdata",newData)
     const bookLiked = books.map((book) => 
       (book.id === newData.id ? newData : book)
     );
-    console.log("bl",bookLiked)
+    //console.log("bl",bookLiked)
     setBooks(bookLiked)
   }
 
