@@ -6,7 +6,7 @@ function Bookcase({books, handleLike}) {
     return (
     <div>
         {books.map((book) => (
-            <BookCard book={book} key={book.id} handleLike={handleLike}/>
+            <BookCard book={book} key={book.id} handleLike={handleLike} />
         ))}
     </div>
   );
