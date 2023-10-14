@@ -129,15 +129,15 @@ input{
   margin-right: 2rem;
   font-weight: 900;
   border-color: aquamarine;
-  background-color: rgb(196, 244, 251);
+  background-color:white;
 }
 
 button{
   height: 35px;
   border: white;
   font-weight: 900;
-  background-color: aquamarine;
-  color:rgb(0, 144, 247);
+  background-color: rgb(0, 144, 247);
+  color:aquamarine;
   border: 2px solid var(--dark-turquoise);
 
 }
