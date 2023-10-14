@@ -7,7 +7,6 @@ import BookForm from "./BookForm"
 
 
 function App() {
-  const [page, setPage] = useState("/")
   const [books, setBooks] = useState([])
   
   useEffect(() => {
@@ -32,7 +31,7 @@ function App() {
 
   return (
     <div>
-      <NavBar onChangePage={setPage}/>
+      <NavBar />
       
       <Switch>
         <Route path="/info">
