@@ -16,7 +16,7 @@ function BookForm({handleUpdate, books}) {
             ...formData,
             [event.target.name]: event.target.value,
         });
-    }
+    };
 
     function handleSubmit(e){
         e.preventDefault();
@@ -35,7 +35,7 @@ function BookForm({handleUpdate, books}) {
             })
         })
         handleUpdate(formData);
-    }
+    };
 
     return (
     <div className="book-form">
@@ -49,6 +49,6 @@ function BookForm({handleUpdate, books}) {
         <img id="belle-gif" src="https://images.gr-assets.com/hostedimages/1381457293ra/4903435.gif" alt="belle library gif"/>
     </div>
   );
-}
+};
 
 export default BookForm;
