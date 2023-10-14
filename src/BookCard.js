@@ -15,7 +15,7 @@ function BookCard({book, handleLike}) {
         })
         .then((r) => r.json())
         .then(handleLike)
-    } 
+    }
   
     return (
     <div className="bookCard">
