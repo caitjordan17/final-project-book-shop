@@ -13,18 +13,18 @@ function App() {
     fetch('http://localhost:3000/books')
         .then((r) => r.json())
         .then((r) => setBooks(r))
-  }, [])
+  }, []);
 
   function handleUpdate(newData){
     setBooks([...books, newData])
-  }
+  };
 
   function handleLike(newData){
     const bookLiked = books.map((book) => 
       (book.id === newData.id ? newData : book)
     );
     setBooks(bookLiked)
-  }
+  };
 
   return (
     <div>
@@ -45,7 +45,7 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;
 
