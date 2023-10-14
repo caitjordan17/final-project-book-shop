@@ -17,15 +17,12 @@ function App() {
 
   function handleUpdate(newData){
     setBooks([...books, newData])
-    //console.log(books)
   }
 
   function handleLike(newData){
-    //console.log("newdata",newData)
     const bookLiked = books.map((book) => 
       (book.id === newData.id ? newData : book)
     );
-    //console.log("bl",bookLiked)
     setBooks(bookLiked)
   }
 
