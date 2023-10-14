@@ -9,6 +9,6 @@ function Info() {
         <img id="gif" src="https://gifdb.com/images/high/the-jungle-book-magical-library-1koj7fnhhbaxor27.gif" alt="library gif"/>
     </div>
   );
-}
+};
 
 export default Info;
