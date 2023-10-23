@@ -10,6 +10,6 @@ function Bookcase({books, handleLike}) {
         ))}
     </div>
   );
-};
+}
 
 export default Bookcase; 

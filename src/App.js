@@ -15,16 +15,16 @@ function App() {
         .then((r) => setBooks(r))
   }, []);
 
-  function handleUpdate(newData){
+  function addBook(newData){
     setBooks([...books, newData])
-  };
+  }
 
   function handleLike(newData){
     const bookLiked = books.map((book) => 
       (book.id === newData.id ? newData : book)
     );
     setBooks(bookLiked)
-  }; 
+  }
 
   return (
     <div>
@@ -36,7 +36,7 @@ function App() {
         </Route>
         
         <Route path="/new">
-          <BookForm books={books} handleUpdate={handleUpdate}/>
+          <BookForm books={books} addBook={addBook}/>
         </Route>
         
         <Route exact path="/">
@@ -45,7 +45,7 @@ function App() {
       </Switch>
     </div>
   );
-};
+}
 
 export default App;
 
